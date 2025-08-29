@@ -3,8 +3,8 @@ mode con cp select=437 >nul
 setlocal EnableDelayedExpansion
 
 set confhome=https://raw.githubusercontent.com/nbqcw123/reinstall/main
-set confhome_cn=https://cnb.cool/nbqcw123/reinstall/-/git/raw/main
-rem set confhome_cn=https://www.ghproxy.cc/https://raw.githubusercontent.com/nbqcw123/reinstall/main
+rem set confhome_cn=https://cnb.cool/nbqcw123/reinstall/-/git/raw/main
+set confhome_cn=https://www.ghproxy.cc/https://raw.githubusercontent.com/nbqcw123/reinstall/main
 
 set pkgs=curl,cpio,p7zip,dos2unix,jq,xz,gzip,zstd,openssl,bind-utils,libiconv,binutils
 set cmds=curl,cpio,p7zip,dos2unix,jq,xz,gzip,zstd,openssl,nslookup,iconv,ar
@@ -238,4 +238,5 @@ for %%c in (%cmds_space%) do (
     )
 )
 exit /b 0
+
 
